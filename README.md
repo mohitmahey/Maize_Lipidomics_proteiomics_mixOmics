@@ -34,8 +34,8 @@ The analyses are performed using the [mixOmics](http://mixomics.org/) R package,
 ## 🚀 Methods Overview
 
 1. **Data Preprocessing**
+   - Filtering steps to remove low-information features.
    - PQN normalization applied to proteomics & lipidomics datasets.  
-   - Filtering steps to remove low-information features.  
 
 2. **Correlation Analysis**
    - Pairwise **Pearson correlations** among proteins and lipids.  
@@ -43,7 +43,7 @@ The analyses are performed using the [mixOmics](http://mixomics.org/) R package,
 
 3. **Canonical Correlation (rCCA)**
    - Multi-block integration using mixOmics.  
-   - Separate models for plastoglobule vs thylakoid datasets.  
+   - Separate models for plastoglobule and thylakoid datasets.  
 
 4. **Network Construction**
    - Edges derived from correlation matrices (above threshold).  
