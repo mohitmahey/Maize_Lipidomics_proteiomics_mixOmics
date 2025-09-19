@@ -9,16 +9,16 @@ The analyses are performed using the [mixOmics](http://mixomics.org/) R package,
 ## 📂 Repository Structure
 
 - **`normalised_pqn.R`**  
-  Script for **Probabilistic Quotient Normalization (PQN)** of proteomics and lipidomics data.  
+  Script for **Probabilistic Quotient Normalization (PQN)** of proteomics and lipidomics data.  Data normalisation is required before using the mixOmics R package. PQN was performed using "Rcpm" R package
 
 - **`correlation_among_matrix_drought.R`**  
-  Calculates correlation matrices among proteomics/lipidomics datasets under **drought** stress.  
+  Calculates correlation matrices among proteomics/lipidomics datasets under **drought** stress using Pearson's correlation .
 
 - **`correlation_among_matrix_heat.R`**  
-  Calculates correlation matrices among proteomics/lipidomics datasets under **heat** stress.  
+  Calculates correlation matrices among proteomics/lipidomics datasets under **heat** stress using Pearson's correlation.
 
 - **`correlation_drought_networks.R`**  
-  Builds **network graphs** from drought correlation matrices for visualization (e.g., in Cytoscape).  
+  Builds **network graphs** from drought correlation matrices for visualizations.
 
 - **`rCCA_drought_PG.R`**  
   rCCA analysis integrating **plastoglobule proteome** and **lipidome** under **drought**.  
@@ -28,12 +28,6 @@ The analyses are performed using the [mixOmics](http://mixomics.org/) R package,
 
 - **`rCCA_heat_PG.R`**  
   rCCA analysis integrating **plastoglobule proteome** and **lipidome** under **heat** stress.  
-
-- **`README.md`**  
-  Documentation for the project.  
-
-- **`LICENSE`**  
-  Licensed under **Apache 2.0**.  
 
 ---
 
